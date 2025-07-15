@@ -120,11 +120,11 @@ Speaker 3: No, thanks. Speaker 4: Meeting adjourned. Thanks all.
 
 ---
 
-
+```
 
 ## 🖇️ Architecture
 
-![Workflow Architecture](docs/architecture.png)
+![Workflow Architecture](architecture.png)
 
 
 ---
@@ -136,6 +136,30 @@ Speaker 3: No, thanks. Speaker 4: Meeting adjourned. Thanks all.
 - Add advanced topic detection or action item extraction
 
 ---
+
+
+---
+
+> ### 📝 **Note: This is an *Extractive Summarization* Task**
+
+**Abstractive summarization** means the AI generates new, concise summaries using its own words, capturing the key ideas rather than copying exact sentences from the original.
+
+**Extractive summarization**, by contrast, selects and stitches together the most important sentences or phrases from the source text, without paraphrasing or rewording.
+
+#### **Example:**
+
+**Original Text:**  
+"Speaker 1: Our quarterly profits rose by 20%. Speaker 2: That's a big win, but let's focus on improving customer retention going forward."
+
+**Extractive Summary:**  
+"Our quarterly profits rose by 20%. That's a big win, but let's focus on improving customer retention going forward."
+
+**Abstractive Summary:**  
+"Profits are up 20%, but the team plans to prioritize customer retention next."
+
+---
+---
+
 
 
 
